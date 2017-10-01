@@ -5,28 +5,36 @@ Configuration basique de webpack pour du développement front.
 - Nettoie le dossier de build
 
 
+
 - Valide l'intégrité, syntaxe et convention CSS
 - Compile le SASS
 - Autopréfix pour supporter les 2 dernieres version des navigateurs et IE10+
 - Minifie le CSS en production
 
 
+
 - Valide l'intégrité, syntaxe et convention JavaScript
 - Minifie le JS en production
 
-- Versionne les fichiers avec un hash 
+
+- Versionne les fichiers avec un hash
 - Génère un fichier manifest référençant les fichiers versionnés
 
+
 - Met une alerte lorsque les fichiers sont trop lourd et en empêche la compilation pour la producation
+
 
 - Affiche une barre de progression
 
 
-## Pre requis 
+## Pre requis
 
 nodejs > 4
+
 npm > 6
+
 yarn
+
 
 
 ## Installation
@@ -34,7 +42,7 @@ yarn
     yarn install
 
 
-## Utilisation
+## Utilisation
 
 Pour déployer en environnement de production
 
@@ -63,4 +71,4 @@ Pour lancer un watcher
         assets_path: __dirname + '/build/'
     }
 
-[/todo](Todo-list)
+[Todo-list](todo)
